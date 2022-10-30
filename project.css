@@ -1,11 +1,75 @@
-main {
-    background-color: beige;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(69, 69, 69), rgb(200, 200, 200));
 }
 
 nav {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-stretch: ultra-expanded;
+    padding: 25px;
+    animation: fadein 1s;
+}
+a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    transform: scale(1.5);
+    transition: .5s ease;
 }
 
 h1 {
-    text-shadow: 2em gray;
+    font: bold ultra-expanded 1.25em;
+    color: gray;
+    text-shadow: 2em rgb(200, 200, 200);
+    padding: 1%;
+    animation: fadein 2s;
+}
+
+#illustid {
+    text-indent: 7%;
+}
+
+.imgLink {
+    align-items: center;
+    justify-content: center;
+}
+
+.previewImg:hover img {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;   
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    animation: fadein 10s;
+}
+
+
+p {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(100, 100, 100);
+    animation: fadein 25s;
+}
+
+@keyframes fadein {
+    from { 
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to { 
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+footer {
+    text-align: center;
+    color: gray;
 }
