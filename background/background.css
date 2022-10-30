@@ -35,6 +35,7 @@ img:hover {
 
 img {
     animation: fadein 2s;
+    margin: 50px;
 }
 
 
