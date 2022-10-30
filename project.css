@@ -27,7 +27,7 @@ h1 {
     color: gray;
     text-shadow: 2em rgb(200, 200, 200);
     padding: 1%;
-    animation: fadein 2s;
+    animation: fadein 4s;
 }
 
 #illustid {
@@ -47,7 +47,7 @@ h1 {
 .center {
     display: flex;
     justify-content: center;
-    animation: fadein 10s;
+    animation: fadein 7s;
 }
 
 
@@ -55,7 +55,7 @@ p {
     text-align: center;
     font-size: xx-large;
     color: rgb(100, 100, 100);
-    animation: fadein 25s;
+    animation: fadein 15s;
 }
 
 @keyframes fadein {
