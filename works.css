@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(69, 69, 69), rgb(200, 200, 200));
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    animation: fadein 1s;
+}
+a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    transform: scale(1.5);
+    transition: .5s ease;
+}
+
+h1 {
+    font: bold ultra-expanded 1.25em;
+    color: gray;
+    text-shadow: 2em rgb(200, 200, 200);
+    padding: 1%;
+    animation: fadein 4s;
+}
+
+
+.previewImg:hover img {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;   
+}
+
+
+@keyframes fadein {
+    from { 
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to { 
+        opacity: 1;
+        transform: translate(0);
+    }
+}

@@ -1,6 +1,7 @@
 body {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-image: linear-gradient(to bottom, rgb(69, 69, 69), rgb(200, 200, 200));
 }
 
@@ -23,32 +24,19 @@ a:hover {
 p {
     text-align: center;
     font-size: xx-large;
-    color: rgb(60, 60, 60);
+    color: rgb(150, 150, 150);
     animation: fadein 7s;
 }
 
-
-h1 {
-    font: bold ultra-expanded 1.25em;
-    color: gray;
-    text-shadow: 2em rgb(200, 200, 200);
-    animation: fadein 1s;
+img:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;   
 }
 
-ul {
-    text-align: center;
-    margin: 15px;
-    animation: fadein 5s;
-    color: rgb(50, 50, 50);
+img {
+    animation: fadein 2s;
 }
 
-li {
-    padding: 5px;
-}
-fieldset {
-    padding: 5px;
-    animation: fadein 3s;
-}
 
 @keyframes fadein {
     from { 

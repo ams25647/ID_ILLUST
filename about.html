@@ -10,11 +10,15 @@
 <body>
     <main>
         <nav>
-            <a href="../ID_ILLUST/project.html">home</a>
-            <a href="../ID_ILLUST/background/background.html">background</a>
-            <a href="../ID_ILLUST/album/album.html">albums</a>
-            <a href="../ID_ILLUST/manga/manga.html">manga</a>
-            <a href="../ID_ILLUST/references/references.html">references</a>
+            <table>
+                <tr>
+                    <th><a href="../ID_ILLUST/project.html">home</a></th>
+                    <th><a href="../ID_ILLUST/background/background.html">background</a></th>
+                    <th><a href="../ID_ILLUST/album/album.html">albums</a></th>
+                    <th><a href="../ID_ILLUST/manga/manga.html">manga</a></th>
+                    <th><a href="../ID_ILLUST/references/references.html">references</a></th>
+                </tr>
+            </table>
         </nav>
         <p>go to: <input type="text" list="nav" name="navigation">
         <datalist id="nav">
@@ -50,16 +54,17 @@
                 drawing up rough drafts of my work.
             </li>
         </ul>
-        <form action="mailto:ams25647@email.vccs.edu" method="POST">
+        <form action="#" method="POST">
             <fieldset>
                 <legend>Contact me:</legend>
                 <p>Leave your questions and comments below.</p>
-                <input type="textarea">enter your comments here.</fieldset>
-                <input type="submit"> <input type="reset" value="clear form">
+                <textarea cols="40" rows="10" placeholder="enter your comments here."></textarea>
+                <input type="submit">
+                <input type="reset" value="clear form">
             </fieldset> 
         </form>
-        <a href="https://github.com/ams25647" id="links">link to  my github</a><br>
-        <a href="../project.html">back to homepage</a>
+        <a href="https://github.com/ams25647" id="links" class="links">link to  my github</a><br>
+        <a href="../project.html" class="links">back to homepage</a>
     </main>
 </body>
 </html>
