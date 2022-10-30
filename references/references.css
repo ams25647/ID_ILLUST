@@ -2,13 +2,13 @@ body {
     display: flex;
     align-items: center;
     background-image: linear-gradient(to bottom, rgb(69, 69, 69), rgb(200, 200, 200));
+    margin-top: 150px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
     font-stretch: ultra-expanded;
     padding: 25px;
+    margin-bottom: 150px;
     animation: fadein 1s;
 }
 a {
@@ -17,18 +17,18 @@ a {
 }
 a:hover {
     color: white;
-    transform: scale(1.5);
+    transform: scale(.5);
     transition: .5s ease;
 }
 p {
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
     color: rgb(200, 200, 200);
     animation: fadein 7s;
 }
 
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     transition: 1s ease-in-out;   
 }
 
